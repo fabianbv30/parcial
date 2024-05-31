@@ -1,0 +1,191 @@
+
+main{
+    min-height: 100vh;
+   background: linear-gradient(rgba(5,7,12,0.4),rgba(0, 0, 0, 0.4)),
+   url(imagenes/how-invincible-became-a-modern-superhero-icon_jvm2.1280.webp);
+    background-size:cover;/*cubrir todo*/
+    color:rgb(255, 255, 255);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    --color1:#00000077;
+    --color2:#0395e9;
+    --color3:#e7d90c;
+
+
+}
+
+
+.menu{
+    display: flex;
+    list-style-type:none ;
+    justify-content: center;
+    margin: 20px;
+}
+
+.menu li{
+padding: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    color: black;
+}
+
+.redes li a{
+    padding: 5px;
+
+}
+
+.redes li a:hover{
+    opacity: 0.5;
+}
+
+.redes li a img{
+    filter: invert(100%);
+}
+
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+span{
+    font-style: oblique;
+    opacity: 0.75;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+}
+
+#cuerpo{
+    color:black
+}
+
+#cuerpo nav ul a{
+    border-bottom: 2px solid rgb(255, 230, 6);
+}
+
+#cuerpo{
+    width: 50%;
+    margin: auto;
+    height: 2500px;
+}
+
+#cuerpo nav ul a{
+    color: #0395e9;
+}
+
+#caf{
+    border-bottom: #e7d90c;
+}
+
+#contenido{
+    padding: 20px;
+}
+
+#foto img{
+    width: 100%;
+}
+
+#cafe .redes li a img{
+    filter: invert(0);
+}
+
+h1 a:hover{
+    opacity: 50%;
+}
+
+#heroe{
+    margin: 20px;
+    float: left;
+}
+
+#foto1{
+    float:right;
+    margin: 10px;
+
+}
+
+#contenido p {
+    text-align: justify;
+    padding: 20px;
+    color: var(--color2);
+}
+
+#galeria{
+margin: auto;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.item{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    box-shadow: 5px 5px 5px var(--color1);
+}
+
+.item a {
+    opacity: 0.7;
+}
+
+.item a :hover{
+    opacity: 1;
+}
+#contenido.item p{
+    text-align: center;
+    color: var(--color2);
+    font-style: italic;
+}
+
+.video{
+    border: 4PX double var(--color3);
+    position: relative;
+    padding-bottom: 30.25%;
+    height: 20%;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px var(--color2);
+    z-index: 10;
+}
+
+.video iframe{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+

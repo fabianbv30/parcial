@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video de Fondo con Música y Contenedores</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    #video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        background-size: cover;
+    }
+    #video-content {
+        position: relative;
+        z-index: 1000;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    .container {
+        margin: 20px auto;
+        width: 80%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="video/Y2meta.app - Invencible - _SALSA VILTRUMITA_ AMV (Omni-Man vs Invencible).mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+    <audio autoplay loop>
+        <source src="audio/Y2meta.app - SALSA VILTRUMITA DEMO [letra] (PORTADA ACTUALIZADA) (320 kbps).mp3" type="audio/mp3">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+    <div id="video-content">
+        <h1>VIDEO</h1>
+        <p></p>
+        <ul>
+            
+            <li>
+                <a href="index1.html">INICIO</a>
+            </li>
+    
+            <li>
+                <a href="index2.html">BLOG</a>
+            </li>
+    
+            <li>
+                <a href="index3.html">GALERIA</a>
+            </li>
+    
+            <li>
+                <a href="index4.html">VIDEOS</a>
+            </li>
+        </ul>
+
+        </ul>
+        
+    </div>
+</body>
+</html>
